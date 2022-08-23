@@ -16,6 +16,7 @@ Partials -
 Images - 
 
   Folder contains crousal images, logo and 4 sub folders:
+  
     Cars: folder contains car images that we will upload from the forms
     
     CNIC Images: folder contain Nation Card Images while booking orders
