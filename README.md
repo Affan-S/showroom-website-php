@@ -29,4 +29,4 @@ CSS -
   Folder contains all CSS files
   
 JavaScript - 
-  Javascript file for hitting endpoitns and validating booking form
+  Javascript file for hitting endpoints and validating booking form
