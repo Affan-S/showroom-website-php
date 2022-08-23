@@ -1,0 +1,225 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    margin-left: 2.5rem;
+    box-sizing: border-box;
+    box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);;
+}
+
+.box:hover{
+    box-shadow:none ;
+}
+.color {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-width: 55px;
+    max-width: fit-content;    
+}
+
+span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.body{
+    flex-grow: 1;
+    overflow: auto;
+    min-height: 2em;
+    background-color: white;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-30{
+    width: 45%;
+}
+
+.success {
+    color: #2ed573;
+}
+
+.error {
+    color: #ff4757;
+}
+/* some hover action */
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+i {
+    font-weight: bold;
+}
+
+
+/* Delete button*/
+.btn-danger {
+    background-color: #ff6b81;
+    text-decoration: none;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #ff4757;
+} 
+
+.tbl-full {
+    width: 100%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+    text-align: left;
+}
+
+table tbody{
+    overflow: auto;
+}
+/* Menu Section */
+.menu {
+    border-bottom: 1px solid black;
+    flex-shrink: 0;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li {
+    display: inline;
+    padding: 1%;
+
+}
+
+/* Main Content */
+.main {
+    padding: 1% 0;
+    width: 100%;
+    height: 81vh;
+}
+
+.col-3{
+
+    background-color: rgb(236, 233, 233);
+    padding: 2%;
+    float: left;
+    border: 1px solid black;
+    
+}
+
+/* Footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+    flex-shrink: 0;
+}
+
+/* Login */
+
+.login {
+    width: 40%;
+    border: 1px solid grey;
+    margin: 10% auto;
+    padding: 5%;
+}  
+
+.login input[type='text'], input[type='password']{
+    width: 300px;
+}
+/* table order */
+
+.table-order {
+    width: 100%;
+}
+
+/* order update style */
+.table-40 {
+    width: 40%;
+}
+.row input[type="text"],select{
+    width: 300px;
+    height: 40px;
+}
+
+.update-form .car-info {
+    float: left;
+}
+.update-form .customer-info{
+    margin-right: 10%;
+    float: right;
+}
+
+
+/* Dropdown in admin panel */
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
